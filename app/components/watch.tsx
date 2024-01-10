@@ -14,6 +14,7 @@ function Watch(props: GroupProps) {
   return (
     <group {...props} dispose={null}>
       <mesh
+        // @ts-ignore
         geometry={nodes.Object005_glass_0.geometry}
         material={materials.glass}
       >
@@ -32,6 +33,7 @@ function Watch(props: GroupProps) {
       <mesh
         castShadow
         receiveShadow
+        // @ts-ignore
         geometry={nodes.Object006_watch_0.geometry}
         material={materials.watch}
       />
